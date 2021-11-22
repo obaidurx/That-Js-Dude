@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.nav {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  align-items: center;
+}
+.signIn {
+  background-color: #5cb85c;
+  color: white;
+  font-size: 1rem;
+  padding: 6px 12px;
+  border-color: #4cae4c;
+  border-radius: 5px;
+}
+.btn {
+  background-color: #428bca;
+  margin-top: 15px;
+  padding: 10px 20px;
+}
+.heading {
+  font-size: 63px;
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 30px;
+}
+.header-main {
+  background-color: #eee;
+  padding: 10px 50px;
+}
+.main {
+  width: 100%;
+  /* height: 800px; */
+  display: flex;
+  padding: 10px 50px;
+  background-color: white;
+}
+.left {
+  /* border: 2px solid rgb(122, 122, 238); */
+  border-radius: 5px;
+  padding: 10px;
+  width: 70%;
+}
+.js-config {
+  margin-bottom: 30px;
+}
+.right {
+  background-color: #eee;
+  /* border: 2px solid rgb(245, 126, 239); */
+  padding: 10px;
+  border-radius: 5px;
+  width: 30%;
+  margin-left: 5px;
+}
+#card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.training,
+.videos,
+.Talks,
+.invite {
+  padding: 20px;
+}
+ul {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+a {
+  text-decoration: none;
+}
+ul > li {
+  margin-left: 20px;
+}
+.footer-container {
+  text-align: center;
+  background-color: #eee;
+  padding: 10px 50px;
+}
